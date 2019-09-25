@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+.scoreboard {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100%;
+    color: #F3BB41;
+}
+
+.aliasBox{
+    text-align: left;
+}
+
+.scoreBox {
+    text-align: right;
+}
