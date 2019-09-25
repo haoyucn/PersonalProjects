@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/score_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Freddy Mercury"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/score_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Winner 1"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/score_totalscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="132"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/score_ticketscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="23"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/score_ticketloss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-8"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/score_longest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="loser"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

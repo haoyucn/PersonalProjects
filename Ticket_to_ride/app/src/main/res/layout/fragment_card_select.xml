@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gameViews.CardSelectFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/card_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Choose a Color"
+                android:textSize="25sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/card_orange"
+                        android:layout_width="53dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/card_ora"
+                        android:text="0"
+                        android:textColor="@color/playerWhiteLight"
+                        android:textSize="25sp"/>
+
+                    <Button
+                        android:id="@+id/card_red"
+                        android:layout_width="53dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/card_red"
+                        android:text="0"
+                        android:textColor="@color/playerWhiteLight"
+                        android:textSize="25sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/card_green"
+                        android:layout_width="53dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/card_gre"
+                        android:text="0"
+                        android:textColor="@color/playerWhiteLight"
+                        android:textSize="25sp"/>
+
+                    <Button
+                        android:id="@+id/card_yellow"
+                        android:layout_width="53dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/card_yel"
+                        android:text="0"
+                        android:textColor="@color/playerWhiteLight"
+                        android:textSize="25sp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/card_purple"
+                        android:layout_width="53dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/card_pur"
+                        android:text="0"
+                        android:textColor="@color/playerWhiteLight"
+                        android:textSize="25sp"/>
+
+                    <Button
+                        android:id="@+id/card_blue"
+                        android:layout_width="53dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/card_blu"
+                        android:text="0"
+                        android:textColor="@color/playerWhiteLight"
+                        android:textSize="25sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/card_white"
+                        android:layout_width="53dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/card_whi"
+                        android:text="0"
+                        android:textColor="@color/playerWhiteLight"
+                        android:textSize="25sp"/>
+
+                    <Button
+                        android:id="@+id/card_black"
+                        android:layout_width="53dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/card_bla"
+                        android:text="0"
+                        android:textColor="@color/playerWhiteLight"
+                        android:textSize="25sp"/>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/card_loco"
+                    android:layout_width="53dp"
+                    android:layout_height="72dp"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/card_loc"
+                    android:text="0"
+                    android:textColor="@color/playerWhiteLight"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

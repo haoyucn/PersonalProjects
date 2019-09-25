@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TTR_Phase1b</string>
+    <string name="title_activity_login_register">LoginRegisterActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lobby">Lobby</string>
+    <string name="player_name">Player Name</string>
+    <!--<string name="common_map_api_key">AIzaSyA_GsK-bO0C17d1bbBmNtucHEIdscP56dE</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

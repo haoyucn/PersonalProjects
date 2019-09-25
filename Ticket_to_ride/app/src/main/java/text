@@ -1,0 +1,1 @@
+export ANDROID_HOME=/root/Android/Sdk/ export PATH=${PATH}:/root/Android/Sdk/tools/ export ANDROID_AVD_HOME=/root/.android/avd/

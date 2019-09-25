@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left|center_vertical"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/playerinfo_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/player1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/playerBlackLight"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/player1_name"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="8dp"-->
+                <!--tools:text="player1 name" />-->
+
+            <!--<TableLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TableRow-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="95dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+                        <!--app:srcCompat="@drawable/star_icon1" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+
+                        <!--app:srcCompat="@drawable/card_icon1" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+                        <!--app:srcCompat="@drawable/train_icon1" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center_horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player1_point"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player1_cards"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player1_trains"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+                <!--</TableRow>-->
+
+            <!--</TableLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView4"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="4dp"-->
+            <!--app:srcCompat="@color/trainBlack" />-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/player2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/playerWhiteLight"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/player2_name"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:text="player2 name" />-->
+
+            <!--<TableLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TableRow-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="95dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+                        <!--app:srcCompat="@drawable/star_icon1" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+
+                        <!--app:srcCompat="@drawable/card_icon1" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+                        <!--app:srcCompat="@drawable/train_icon1" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center_horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player2_points"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player2_cards"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player2_trains"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+                <!--</TableRow>-->
+
+            <!--</TableLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView5"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="4dp"-->
+            <!--app:srcCompat="@color/trainBlack" />-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/player3"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/playerYellowLight"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/player3_name"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="8dp"-->
+                <!--tools:text="player3 name" />-->
+
+            <!--<TableLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TableRow-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="95dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+                        <!--app:srcCompat="@drawable/star_icon1" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+
+                        <!--app:srcCompat="@drawable/card_icon1" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+                        <!--app:srcCompat="@drawable/train_icon1" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center_horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player3_points"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player3_cards"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player3_trains"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+                <!--</TableRow>-->
+
+            <!--</TableLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView6"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="4dp"-->
+            <!--app:srcCompat="@color/trainBlack" />-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/player4"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/playerPurpleLight"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/player4_name"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="8dp"-->
+                <!--tools:text="player4 name" />-->
+
+            <!--<TableLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<TableRow-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="95dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+                        <!--app:srcCompat="@drawable/star_icon1" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+
+                        <!--app:srcCompat="@drawable/card_icon1" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="32dp"-->
+                        <!--android:layout_height="32dp"-->
+                        <!--android:layout_marginHorizontal="8dp"-->
+                        <!--app:srcCompat="@drawable/train_icon1" />-->
+                <!--</TableRow>-->
+
+                <!--<TableRow-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center_horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player4_points"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player4_cards"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/player4_trains"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="0" />-->
+                <!--</TableRow>-->
+
+            <!--</TableLayout>-->
+
+        <!--</LinearLayout>-->
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

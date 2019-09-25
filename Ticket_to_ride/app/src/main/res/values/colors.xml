@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">     #3F51B5</color>
+    <color name="colorPrimaryDark"> #303f9f</color>
+    <color name="colorAccent">  #FF4081</color>
+    <color name="playerWhite">#e5e7e9</color>
+    <color name="playerRed">#e74c3c</color>
+    <color name="playerYellow">#f7dc6f</color>
+    <color name="playerPurple">#bb8fce</color>
+    <color name="playerBlack">#2c3e50</color>
+    <color name="playerBlue">#7fb3d5</color>
+    <color name="playerWhiteLight">  #f7f9f9 </color>
+    <color name="playerRedLight">    #fadbd8 </color>
+    <color name="playerYellowLight"> #fcf3cf </color>
+    <color name="playerPurpleLight"> #e8daef </color>
+    <color name="playerBlackLight">#abb2b9</color>
+    <color name="playerBlueLight">#d4e6f1</color>
+    <color name="trainRed">     #922b21  </color>
+    <color name="trainOrange">  #a04000 </color>
+    <color name="trainYellow">  #b7950b </color>
+    <color name="trainGreen">   #1e8449 </color>
+    <color name="trainBlue">    #1f618d </color>
+    <color name="trainPurple">  #6c3483 </color>
+    <color name="trainBlack">   #1c2833 </color>
+    <color name="trainWhite">   #d0d3d4 </color>
+    <color name="trainGrey">   #606364 </color>
+</resources>
